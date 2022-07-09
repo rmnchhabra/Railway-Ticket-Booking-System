@@ -1,0 +1,14 @@
+
+1st Terminal : (starting SERVER)
+gcc server.c -o server
+./server 9999
+(./server port-no)
+
+2nd Terminal : (starting CLIENT)
+gcc client.c -o client
+./client 127.0.0.1 9999
+(./client server-ip port-no)
+
+for admin user creation, super admin username and password is needed
+super admin username : ADMIN
+super admin password : ADMIN 
